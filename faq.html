@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="assets/js/materialize.js"></script>
+    <link rel="stylesheet" href="assets/css/materialize.css">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+     <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SchedStalk v2016.1A</title>
+</head>
+<style>
+    #contentpage{
+        margin:5%;
+    }
+</style>
+<script>
+    $(document).ready(function(){
+        // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+        $('.modal-trigger').leanModal();
+    });   
+</script>
+<body>
+     <nav>
+    <div class="nav-wrapper light-green accent-4">
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href=".">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="htu.html">How to use?</a></li>
+      </ul>
+    </div>
+  </nav>
+    <div id="contentpage">
+        <h1>FAQ</h1>
+        <h6>
+              <p class="flow-text">
+              <ul>
+               
+               <li>Q : WTF is this ?</li> 
+               <li>A : Baca laman about.</li>
+               <li>Q : gratis ?</li> 
+               <li>A : y.</li>
+               <li>Q : bayar ?</li> 
+               <li>A : g.</li>
+               <li>Q : waw</li> 
+               <li>A : ?.</li>
+                </ul>
+        </h6>
+      </div>
+      
+ <footer class="page-footer light-green accent-4">
+          <div class="footer-copyright">
+            <div class="container">
+             Project Schedstalk &copy; 2016
+            </div>
+          </div>
+        </footer>
+</body>
+<script>
+  $(".button-collapse").sideNav();
+</script>
+
+</html>

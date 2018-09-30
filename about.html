@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="assets/js/materialize.js"></script>
+    <link rel="stylesheet" href="assets/css/materialize.css">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SchedStalk v2016.1A</title>
+</head>
+<style>
+    #contentpage{
+        margin:5%;
+    }
+</style>
+<script>
+    $(document).ready(function(){
+        // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+        $('.modal-trigger').leanModal();
+    });   
+</script>
+<body>
+     <nav>
+    <div class="nav-wrapper light-green accent-4">
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href=".">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="htu.html">How to use?</a></li>
+      </ul>
+    </div>
+  </nav>
+    <div id="contentpage">
+        <h1>About</h1>
+          <p class="flow-text">
+      <h6>Schedstalk merupakan mesin pencarian yang dapat menjawab pertanyaan-pertanyaan dalam bentuk bahasa natural. Pertanyaan yang dapat dijawab oleh schedstalk meliputi pertanyaan-pertanyaan tentang kelas-kelas ataupun mata kuliah yang diambil oleh mahasiswa IPB.</h6>
+    <h6>Merupakan produk riset dari salah satu mahasiswa ilmu komputer IPB angkatan 2012 untuk projek akhir mata kuliah Information Retrieval.</h6>
+    </p>
+      </div>
+      
+ <footer class="page-footer light-green accent-4">
+          <div class="footer-copyright">
+            <div class="container">
+             Project Schedstalk &copy; 2016
+            </div>
+          </div>
+        </footer>
+</body>
+<script>
+  $(".button-collapse").sideNav();
+</script>
+
+</html>
